@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_002_SearchMenu_NavigateThatScreen">
+      <class name="testCases.TC_003_Reset_SelectedValues_In_AdminPage">
         <methods>
           <include name="login"/>
           <include name="loginApplication"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- testCases.TC_002_SearchMenu_NavigateThatScreen -->
+      </class> <!-- testCases.TC_003_Reset_SelectedValues_In_AdminPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

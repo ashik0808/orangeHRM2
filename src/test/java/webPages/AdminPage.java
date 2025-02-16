@@ -27,6 +27,9 @@ public class AdminPage extends base {
 	@FindBy(className="orangehrm-main-title")
 	WebElement title;
 	
+	@FindBy(xpath = "//button[normalize-space()='Reset']")
+	WebElement resetButton;
+	
 	public String getTitle()
 	{
 		return title.getText();
@@ -57,7 +60,14 @@ public class AdminPage extends base {
 	{
 		searchButton.click();	
 	}
-	
+	public void clickReset()
+	{
+		resetButton.click();	
+	}
+	public String getUsernameText()
+	{
+		return inputName.getDomProperty("value");
+	}
 	public String getTotalRecords()
 	{
 		return totalRecords.getText();
