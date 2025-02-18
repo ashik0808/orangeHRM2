@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T16:59:50 IST" name="Default suite" finished-at="2025-02-16T16:59:59 IST" duration-ms="8883">
+  <suite started-at="2025-02-18T10:03:40 IST" name="Default suite" finished-at="2025-02-18T10:03:50 IST" duration-ms="9973">
     <groups>
     </groups>
-    <test started-at="2025-02-16T16:59:50 IST" name="Default test" finished-at="2025-02-16T16:59:59 IST" duration-ms="8883">
-      <class name="testCases.TC_003_Reset_SelectedValues_In_AdminPage">
-        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC_003_Reset_SelectedValues_In_AdminPage@1fd14d74]" started-at="2025-02-16T16:59:50 IST" name="login" finished-at="2025-02-16T16:59:55 IST" duration-ms="4635" status="PASS">
+    <test started-at="2025-02-18T10:03:40 IST" name="Default test" finished-at="2025-02-18T10:03:50 IST" duration-ms="9973">
+      <class name="testCases.TC_004_Actions_KeyBoardActions">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC_004_Actions_KeyBoardActions@563e4951]" started-at="2025-02-18T10:03:40 IST" name="login" finished-at="2025-02-18T10:03:44 IST" duration-ms="4075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="searchAndReset()[pri:0, instance:testCases.TC_003_Reset_SelectedValues_In_AdminPage@1fd14d74]" started-at="2025-02-16T16:59:55 IST" name="searchAndReset" finished-at="2025-02-16T16:59:59 IST" duration-ms="3946" status="PASS">
+        <test-method signature="searchAndReset()[pri:0, instance:testCases.TC_004_Actions_KeyBoardActions@563e4951]" started-at="2025-02-18T10:03:44 IST" name="searchAndReset" finished-at="2025-02-18T10:03:50 IST" duration-ms="5696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndReset -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_003_Reset_SelectedValues_In_AdminPage@1fd14d74]" started-at="2025-02-16T16:59:59 IST" name="logout" finished-at="2025-02-16T16:59:59 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_004_Actions_KeyBoardActions@563e4951]" started-at="2025-02-18T10:03:50 IST" name="logout" finished-at="2025-02-18T10:03:50 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- testCases.TC_003_Reset_SelectedValues_In_AdminPage -->
+      </class> <!-- testCases.TC_004_Actions_KeyBoardActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AdminPage extends base {
-
+	
 	public AdminPage(WebDriver driver) {
 		super(driver);
 
@@ -72,4 +72,5 @@ public class AdminPage extends base {
 	{
 		return totalRecords.getText();
 	}
+	
 }
