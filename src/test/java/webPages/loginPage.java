@@ -32,4 +32,9 @@ public class loginPage extends base{
 	public void clickLoginButton() {
 		loginButton.click();
 	}
+	public void callJs(String value)
+	{
+		
+		enterTextusingJs(userName,value);
+	}
 }

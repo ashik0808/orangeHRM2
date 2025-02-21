@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_003_Reset_SelectedValues_In_AdminPage">
+      <class name="testCases.TC_005_JsExecutor">
         <methods>
           <include name="login"/>
-          <include name="logout"/>
           <include name="searchAndReset"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- testCases.TC_003_Reset_SelectedValues_In_AdminPage -->
+      </class> <!-- testCases.TC_005_JsExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

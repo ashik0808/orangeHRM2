@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -15,7 +16,7 @@ public class basePage {
     @BeforeClass
     public void login() {
         try {
-        	String filepath="src\\test\\java\\config\\config.properties";
+        	String filepath="src/test/java/config/config.properties";
         	FileReader fr= new FileReader(filepath);
         	p2= new Properties();
         	p2.load(fr);
